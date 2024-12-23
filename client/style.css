@@ -1,4 +1,6 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 :root {
     --primary-color: #03045e;
     --font-size-l: 16px;
@@ -11,6 +13,7 @@
     padding: 0;
     box-sizing: border-box !important;
     overflow: hidden !important;
+    font-family: "Inter", serif !important;
 }
 
 header {
@@ -26,6 +29,10 @@ main {
     height: 87vh;
     width: 90%;
     margin: auto;
+}
+
+button {
+    cursor: pointer;
 }
 
 .input-container {
@@ -74,6 +81,9 @@ main {
     padding: 4px 12px;
     border-radius: 4px;
     margin-bottom: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 footer{
